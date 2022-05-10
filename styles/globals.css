@@ -1,16 +1,16 @@
+@tailwind base;
+
+/* Allow percentage-based heights */
 html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+body,
+#__next {
+  height: 100%;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* Create a root stacking context */
+#__next {
+  isolation: isolate;
 }
 
-* {
-  box-sizing: border-box;
-}
+@tailwind components;
+@tailwind utilities;
