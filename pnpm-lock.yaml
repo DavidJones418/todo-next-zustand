@@ -12,18 +12,18 @@ specifiers:
   postcss: 8.4.16
   prettier: 2.7.1
   prettier-plugin-tailwindcss: 0.1.13
-  react: 18.1.0
-  react-dom: 18.1.0
+  react: 18.2.0
+  react-dom: 18.2.0
   tailwindcss: 3.1.8
   typescript: 4.8.0-dev.20220510
   zustand: 4.1.1
 
 dependencies:
   immer: 9.0.15
-  next: 12.2.5_react-dom@18.1.0+react@18.1.0
-  react: 18.1.0
-  react-dom: 18.1.0_react@18.1.0
-  zustand: 4.1.1_immer@9.0.15+react@18.1.0
+  next: 12.2.5_react-dom@18.2.0+react@18.2.0
+  react: 18.2.0
+  react-dom: 18.2.0_react@18.2.0
+  zustand: 4.1.1_immer@9.0.15+react@18.2.0
 
 devDependencies:
   '@types/node': 17.0.31
@@ -1525,7 +1525,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next/12.2.5_react-dom@18.1.0+react@18.1.0:
+  /next/12.2.5_react-dom@18.2.0+react@18.2.0:
     resolution: {integrity: sha512-tBdjqX5XC/oFs/6gxrZhjmiq90YWizUYU6qOWAfat7zJwrwapJ+BYgX2PmiacunXMaRpeVT4vz5MSPSLgNkrpA==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -1547,10 +1547,10 @@ packages:
       '@swc/helpers': 0.4.3
       caniuse-lite: 1.0.30001382
       postcss: 8.4.14
-      react: 18.1.0
-      react-dom: 18.1.0_react@18.1.0
-      styled-jsx: 5.0.4_react@18.1.0
-      use-sync-external-store: 1.2.0_react@18.1.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      styled-jsx: 5.0.4_react@18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
     optionalDependencies:
       '@next/swc-android-arm-eabi': 12.2.5
       '@next/swc-android-arm64': 12.2.5
@@ -1868,22 +1868,22 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /react-dom/18.1.0_react@18.1.0:
-    resolution: {integrity: sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w==}
+  /react-dom/18.2.0_react@18.2.0:
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
-      react: ^18.1.0
+      react: ^18.2.0
     dependencies:
       loose-envify: 1.4.0
-      react: 18.1.0
-      scheduler: 0.22.0
+      react: 18.2.0
+      scheduler: 0.23.0
     dev: false
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react/18.1.0:
-    resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
+  /react/18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
@@ -1959,8 +1959,8 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
-  /scheduler/0.22.0:
-    resolution: {integrity: sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==}
+  /scheduler/0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
     dev: false
@@ -2053,7 +2053,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-jsx/5.0.4_react@18.1.0:
+  /styled-jsx/5.0.4_react@18.2.0:
     resolution: {integrity: sha512-sDFWLbg4zR+UkNzfk5lPilyIgtpddfxXEULxhujorr5jtePTUqiPDc5BC0v1NRqTr/WaFBGQQUoYToGlF4B2KQ==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -2066,7 +2066,7 @@ packages:
       babel-plugin-macros:
         optional: true
     dependencies:
-      react: 18.1.0
+      react: 18.2.0
     dev: false
 
   /supports-color/7.2.0:
@@ -2194,12 +2194,12 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /use-sync-external-store/1.2.0_react@18.1.0:
+  /use-sync-external-store/1.2.0_react@18.2.0:
     resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      react: 18.1.0
+      react: 18.2.0
     dev: false
 
   /util-deprecate/1.0.2:
@@ -2256,7 +2256,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zustand/4.1.1_immer@9.0.15+react@18.1.0:
+  /zustand/4.1.1_immer@9.0.15+react@18.2.0:
     resolution: {integrity: sha512-h4F3WMqsZgvvaE0n3lThx4MM81Ls9xebjvrABNzf5+jb3/03YjNTSgZXeyrvXDArMeV9untvWXRw1tY+ntPYbA==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
@@ -2269,6 +2269,6 @@ packages:
         optional: true
     dependencies:
       immer: 9.0.15
-      react: 18.1.0
-      use-sync-external-store: 1.2.0_react@18.1.0
+      react: 18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
     dev: false
